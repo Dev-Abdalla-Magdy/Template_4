@@ -4,15 +4,94 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Dash Board</title>
-  <link rel="stylesheet" href="css/styles.css" />
+  <title>Dashboard</title>
   <link rel="stylesheet" href="css/framework.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
-  <!-- Start Header Section -->
-
-  <!-- End Header Section -->
+  <div class="page d-flex">
+    <div class="sidebar p-20 pos-rel bg-fff">
+      <h3 class="pos-rel txt-c mt-0">&.3ME.&</h3>
+      <ul>
+        <li>
+          <a class="active fs-14 c-000 p-10 rad-6 d-flex align-c mb-10" href="index.html">
+            <i class="fa-solid fa-chart-bar fa-fw"></i>
+            <span class="">Dashboard</span>
+          </a>
+        </li>
+        <li>
+          <a class="fs-14 c-000 p-10 rad-6 d-flex align-c mb-10" href="index.html">
+            <i class="fa-solid fa-gear fa-fw"></i>
+            <span class="">Settings</span>
+          </a>
+        </li>
+        <li>
+          <a class="fs-14 c-000 p-10 rad-6 d-flex align-c mb-10" href="index.html">
+            <i class="fa-regular fa-user fa-fw"></i>
+            <span class="">Profile</span>
+          </a>
+        </li>
+        <li>
+          <a class="fs-14 c-000 p-10 rad-6 d-flex align-c mb-10" href="index.html">
+            <i class="fa-solid fa-diagram-project fa-fw"></i>
+            <span class="">Projects</span>
+          </a>
+        </li>
+        <li>
+          <a class="fs-14 c-000 p-10 rad-6 d-flex align-c mb-10" href="index.html">
+            <i class="fa-solid fa-graduation-cap fa-fw"></i>
+            <span class="">Courses</span>
+          </a>
+        </li>
+        <li>
+          <a class="fs-14 c-000 p-10 rad-6 d-flex align-c mb-10" href="index.html">
+            <i class="fa-regular fa-circle-user fa-fw"></i>
+            <span class="">Friends</span>
+          </a>
+        </li>
+        <li>
+          <a class="fs-14 c-000 p-10 rad-6 d-flex align-c mb-10" href="index.html">
+            <i class="fa-regular fa-file fa-fw"></i>
+            <span class="">Files</span>
+          </a>
+        </li>
+        <li>
+          <a class="fs-14 c-000 p-10 rad-6 d-flex align-c mb-10" href="index.html">
+            <i class="fa-solid fa-credit-card fa-fw"></i>
+            <span class="pr-50">Plans</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="content full-w">
+      <!-- Start Header -->
+      <div class="header p-15 bg-fff between-flex">
+        <div class="search pos-rel">
+          <input class="p-10" type="text" placeholder="Type a keyword">
+        </div>
+        <div class="icons d-flex align-c">
+          <span class="notification pos-rel">
+            <i class="fa-solid fa-bell fa-lg"></i>
+          </span>
+          <img class="rad-50" src="files/profile.jpg" alt="profile">
+        </div>
+      </div>
+      <!-- End Header -->
+      <h1 class="pos-rel">Dashboard</h1>
+      <div class="wrapper d-grid gap-20">
+        <div class="welcome rad-10 p-20 bg-fff txt-c-mobile block-mobile">
+          <h2>Welcome</h2>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <script src="js/scripts.js"></script>
 </body>
